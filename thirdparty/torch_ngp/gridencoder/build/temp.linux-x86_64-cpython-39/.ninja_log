@@ -1,0 +1,5 @@
+# ninja log v5
+1	21981	1711612109474823314	/data/users/wangshu/CodeFile/NeuRBF/thirdparty/torch_ngp/gridencoder/build/temp.linux-x86_64-cpython-39/data/users/wangshu/CodeFile/NeuRBF/thirdparty/torch_ngp/gridencoder/src/bindings.o	2e49a6c7f5d980f0
+1	100515	1711612188005649824	/data/users/wangshu/CodeFile/NeuRBF/thirdparty/torch_ngp/gridencoder/build/temp.linux-x86_64-cpython-39/data/users/wangshu/CodeFile/NeuRBF/thirdparty/torch_ngp/gridencoder/src/gridencoder.o	a1296bf38c635b01
+8	22179	1748624966015108942	/data/users/wangshu/CodeFile/test/thirdparty/torch_ngp/gridencoder/build/temp.linux-x86_64-cpython-39/data/users/wangshu/CodeFile/test/thirdparty/torch_ngp/gridencoder/src/bindings.o	64789b1168a1e183
+8	110303	1748625054161225398	/data/users/wangshu/CodeFile/test/thirdparty/torch_ngp/gridencoder/build/temp.linux-x86_64-cpython-39/data/users/wangshu/CodeFile/test/thirdparty/torch_ngp/gridencoder/src/gridencoder.o	d45cbcaf81cf3280
