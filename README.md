@@ -17,7 +17,8 @@ Shandong University, North University of China
 
 <img src="main.svg" width="100%"/>
 
-## Clone
+## Setup
+### Clone
 ```bash
 git clone https://github.com/wangshu31/MetricGrids.git
 cd MetricGrids
@@ -43,7 +44,7 @@ python -m cupyx.tools.install_library --cuda 11.x --library nccl
 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --index-url https://download.pytorch.org/whl/cu118
 
 # Install Packages
-pip install einops matplotlib kornia imageio imageio-ffmpeg opencv-python pysdf PyMCubes trimesh plotly scipy GPUtil scikit-image scikit-learn pykdtree commentjson tqdm configargparse lpips tensorboard torch-ema ninja tensorboardX "numpy<2" pandas rich packaging scipy torchmetrics jax pillow plyfile omegaconf termcolor
+pip install einops matplotlib kornia imageio imageio-ffmpeg opencv-python pysdf PyMCubes trimesh plotly scipy GPUtil scikit-image scikit-learn pykdtree commentjson tqdm configargparse lpips tensorboard torch-ema ninja tensorboardX numpy pandas rich packaging scipy torchmetrics jax pillow plyfile omegaconf
 pip install jax tqdm pillow opencv-python pandas lpips imageio torchmetrics scikit-image tensorboard matplotlib
 pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 pip install nerfacc
@@ -56,7 +57,7 @@ cd ../../../
 
 ## Experiments
 ### Image
-Please download the [Kodak dataset](https://r0k.us/graphics/kodak/) and place it in the `data/img/Kodak` directory. Model parameter settings can be found in `configs/img.py`. To train the model on all Kodak images in a single run, use the following command:
+Please download the Kodak dataset and place it in the `data/img/Kodak` directory. Model parameter settings can be found in `configs/img.py`. To train the model on all Kodak images in a single run, use the following command:
 ```bash
 ./Kodak.sh
 ```
@@ -79,7 +80,7 @@ Then run the following command to evaluate all 7 objects:
 ```
 The result and tensorboard log will be located in `log/sdf`.
 
-## NeRF
+### NeRF
 
 The novel view synthesis experiments in this repository are accelerated using the **Occupancy Grid Estimator** from [NerfAcc](https://github.com/nerfstudio-project/nerfacc).
 
